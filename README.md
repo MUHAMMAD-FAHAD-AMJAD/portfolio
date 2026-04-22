@@ -1,39 +1,123 @@
-# Muhammad Fahad Amjad - Developer Portfolio
+<div align="center">
+  <h1>Muhammad Fahad Amjad</h1>
+  <p><strong>Full Stack Developer and AI Engineer</strong></p>
+  <p>Building AI-powered products from Faisalabad, Pakistan.</p>
 
-A premium personal portfolio crafted for hiring managers, collaborators, and technical teams.
+  <p>
+    <a href="https://github.com/MUHAMMAD-FAHAD-AMJAD">GitHub</a>
+    |
+    <a href="https://linkedin.com/in/muhammad-fahad-amjad-76470531b">LinkedIn</a>
+    |
+    <a href="mailto:muhammadfahadamjad27@gmail.com">Email</a>
+  </p>
 
-This repository contains a fully self-contained portfolio website built with pure HTML, CSS, and JavaScript. No frameworks, no build pipeline, and no runtime setup are required. Open the file in Chrome and it works immediately.
+  <p>
+    <img alt="Stack" src="https://img.shields.io/badge/Stack-HTML%20%7C%20CSS%20%7C%20JavaScript-64FFDA?style=for-the-badge&labelColor=0A192F">
+    <img alt="Architecture" src="https://img.shields.io/badge/Layout-Two%20Column%20Premium-64FFDA?style=for-the-badge&labelColor=0A192F">
+    <img alt="No Build Tools" src="https://img.shields.io/badge/Build-None-64FFDA?style=for-the-badge&labelColor=0A192F">
+    <img alt="License" src="https://img.shields.io/badge/License-MIT-64FFDA?style=for-the-badge&labelColor=0A192F">
+  </p>
+</div>
 
-## Overview
+---
 
-This portfolio presents Muhammad Fahad Amjad as a Full Stack Developer and AI Engineer, with a strong focus on product-minded engineering, AI systems, and execution speed.
+## Portfolio Overview
+
+This repository contains a world-class personal developer portfolio designed for real hiring impact.
+
+The website is fully self-contained in a single HTML file and intentionally built without frameworks or build tools. Open it directly in Chrome and it runs immediately.
+
+### Identity
 
 - Name: Muhammad Fahad Amjad
 - Role: Full Stack Developer and AI Engineer
 - Location: Faisalabad, Pakistan
-- GitHub: https://github.com/MUHAMMAD-FAHAD-AMJAD
-- LinkedIn: https://linkedin.com/in/muhammad-fahad-amjad-76470531b
-- Email: muhammadfahadamjad27@gmail.com
+- Focus: Product engineering, AI systems, and full-stack execution
 
-## Experience Design Goals
+---
 
-- Premium visual identity inspired by top-tier developer portfolios
-- Fast loading and zero build complexity
-- Clear information hierarchy for recruiter-friendly scanning
-- Strong interaction polish with smooth transitions and hover feedback
-- Mobile responsiveness without sacrificing desktop quality
+## Why This Portfolio Stands Out
 
-## Key Features
+- Premium visual direction inspired by elite engineering portfolios
+- High signal-to-noise layout that is easy for recruiters to scan
+- Strong interaction quality with smooth, intentional motion
+- Fast load time with zero dependency bloat
+- Mobile-ready experience without compromising desktop polish
 
-- Two-column architecture with fixed sidebar and scrollable content panel
-- Cursor spotlight effect using dynamic radial gradient tracking
-- Scroll-aware sidebar navigation with active section state
-- IntersectionObserver-based section reveal animations
-- Project cards with status badges, hover lift, and glow behavior
-- Responsive mobile navbar with hamburger toggle at 768px breakpoint
-- Styled thin scrollbar aligned to the site color system
+---
 
-## Tech Stack
+## Experience Highlights
+
+### Structure
+
+- Fixed left sidebar for identity and navigation
+- Scrollable right content panel for section depth
+- Scroll-based active nav states for orientation and clarity
+
+### Visual Design
+
+- Deep navy background with mint accent system
+- High-contrast, accessible typography hierarchy
+- Card surfaces with subtle glow and refined hover behavior
+
+### Interaction Design
+
+- Cursor spotlight ambient glow tracking mouse position
+- Section reveal transitions via IntersectionObserver
+- Project card hover lift, gradient illumination, and status badges
+- Responsive hamburger navigation at mobile breakpoint
+
+---
+
+## Included Sections
+
+1. About
+2. Skills
+3. Projects
+4. Contact
+
+---
+
+## Featured Work Presented In Portfolio
+
+### ClassMate Chrome Extension (LIVE)
+
+Bulk-download Google Classroom material in one click with local-first processing.
+
+- Stack: JavaScript, Chrome Extension API, Manifest V3
+- Live: https://classmateextension.dev
+- Code: https://github.com/MUHAMMAD-FAHAD-AMJAD/ClassMate-Classroom-Downloader
+
+### Maher Zarai Markaz (LIVE)
+
+Production MERN commerce platform for a real agricultural business.
+
+- Stack: MongoDB, Express.js, React, Node.js
+- Live: https://maherzaraimarkaz.store
+
+### Gmail Clone (LIVE)
+
+Functional Gmail-style interface with clean component architecture.
+
+- Stack: React, Tailwind CSS, Vercel
+- Live: https://ai-gmail-clone-screening-project.vercel.app
+
+### MedCred (IN PROGRESS)
+
+Medical credentialing SaaS with advanced workflow and billing foundations.
+
+- Stack: Next.js, TypeScript, Supabase, Prisma, Stripe, shadcn/ui
+- Code: https://github.com/MUHAMMAD-FAHAD-AMJAD/QUAD-SOLUTIONS
+
+### NEXUS RAG (IN PROGRESS)
+
+Embeddable RAG-as-a-Service with hybrid retrieval architecture.
+
+- Stack: FastAPI, pgvector, BM25, Groq, React 19, Supabase, Heroku
+
+---
+
+## Technology Stack
 
 - HTML5
 - CSS3
@@ -41,52 +125,55 @@ This portfolio presents Muhammad Fahad Amjad as a Full Stack Developer and AI En
 - Google Fonts CDN (Inter, JetBrains Mono)
 - Font Awesome 6 CDN
 
-## Project Sections
+---
 
-1. About
-2. Skills
-3. Projects
-4. Contact
+## Run Locally
 
-## Quick Start
+### Option 1: Open directly in Chrome
 
-### Option 1: Open directly
-
-1. Clone this repository.
+1. Clone the repository.
 2. Open index.html in Chrome.
 
-### Option 2: Use a local static server
+### Option 2: Serve from a local static server
 
-If you prefer running a local server:
+```bash
+git clone https://github.com/MUHAMMAD-FAHAD-AMJAD/portfolio.git
+cd portfolio
+# Use any static server you prefer, then open the served URL in Chrome
+```
 
-1. Open terminal in the repository folder.
-2. Run any static server command you already use.
-3. Visit the local URL in Chrome.
+---
 
 ## Repository Structure
 
 ```text
 portfolio/
-	index.html
-	README.md
-	LICENSE
+  index.html
+  README.md
+  LICENSE
 ```
 
-## Customization Notes
+---
 
-- Update personal information in the sidebar and contact section in index.html
-- Add, remove, or reorder projects in the projects section as needed
-- Tune theme colors through the CSS root variables for instant restyling
-- Keep external links current for GitHub, LinkedIn, and live project URLs
+## Customization Guide
+
+- Update profile and contact details inside index.html
+- Add or reorder projects in the Projects section
+- Tune colors through CSS root variables for instant restyling
+- Keep all external links current and production-safe
+
+---
 
 ## Contact
 
-For internships, collaborations, or product engineering work:
+Open to internships, high-quality collaborations, and challenging product engineering problems.
 
 - Email: muhammadfahadamjad27@gmail.com
 - GitHub: https://github.com/MUHAMMAD-FAHAD-AMJAD
 - LinkedIn: https://linkedin.com/in/muhammad-fahad-amjad-76470531b
 
+---
+
 ## License
 
-This project is distributed under the license defined in LICENSE.
+This project is licensed under the MIT License. See LICENSE for details.
